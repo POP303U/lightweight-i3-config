@@ -1,63 +1,104 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
+#
+# NEEDED PACKAGES: feh nitrogen compton picom maim xclip xdotool rofi
 
-# ---------------------- #
-#                        #
-# CUSTOM CONFIGS GO HERE #
-#                        #
-# ---------------------- #
+# ----------------------------------- #
+# DEPRECATED (Why would you use this) #
+# ----------------------------------- #
 
-# Custom modifier key (current is ALT)
-set $mod Mod1
+# Set Background on boot (feh package is necessary)
+# exec_always --no-startup-id /usr/bin/feh --bg-scale ~/Pictures/wallhaven-6o2qjw.png
+# exec --no-startup-id compton
+
+# --------- #
+# VARIABLES #
+# --------- #
+
+# Here you can set your terminal etc.
+set $terminal "terminator"
+
+# ------------------------- #
+#                           #
+# CUSTOM CONFIGS START HERE #
+#                           #
+# ------------------------- #
 
 # Custom window font
 font pango:Jetbrains Mono SemiBold 21
 
-# Set Background on boot
-exec_always --no-startup-id /usr/bin/feh --bg-scale '/usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png'
-exec --no-startup-id compton
+#Start all custom services:
+  # Transparency with picom compositor (picom package is necessary)
+  exec_always --no-startup-id picom --config /home/$USER/.config/i3/picom.conf -b
 
-# Set default resolution (1920x1080)
-exec_always --no-startup-id xrandr -s 2
+  # Set Background on boot (nitrogen package is necessary)
+  exec_always --no-startup-id nitrogen --restore
 
-# Start session with terminal
-exec_always --no-startup-id i3-msg 'workspace 1; exec chromium-browser; exec i3-sensible-terminal;'
+  # Start rofi (rofi package is necessary)
+  bindsym $mod+d exec "rofi -modi drun,run -show drun"
 
-# Resizing windows in i3 using keyboard only:
+  # Start your specified terminal
+  bindsym $mod+Return exec $terminal
+#end
 
-    # Resizing by 1
-    bindsym $mod+Ctrl+Right resize shrink width 1 px or 1 ppt
-    bindsym $mod+Ctrl+Up resize grow height 1 px or 1 ppt
-    bindsym $mod+Ctrl+Down resize shrink height 1 px or 1 ppt
-    bindsym $mod+Ctrl+Left resize grow width 1 px or 1 ppt
+# Resizing windows + bar controls:
+  # Resizing by 1
+  bindsym $mod+Ctrl+Right resize shrink width 1 px or 1 ppt
+  bindsym $mod+Ctrl+Up resize grow height 1 px or 1 ppt
+  bindsym $mod+Ctrl+Down resize shrink height 1 px or 1 ppt
+  bindsym $mod+Ctrl+Left resize grow width 1 px or 1 ppt
 
-    # Resizing by 10
-    bindsym $mod+Ctrl+Shift+Right resize shrink width 10 px or 10 ppt
-    bindsym $mod+Ctrl+Shift+Up resize grow height 10 px or 10 ppt
-    bindsym $mod+Ctrl+Shift+Down resize shrink height 10 px or 10 ppt
-    bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
+  # Resizing by 10
+  bindsym $mod+Ctrl+Shift+Right resize shrink width 10 px or 10 ppt
+  bindsym $mod+Ctrl+Shift+Up resize grow height 10 px or 10 ppt
+  bindsym $mod+Ctrl+Shift+Down resize shrink height 10 px or 10 ppt
+  bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
 
-# Disabling window borders
-for_window [class="^.*"] border none
+  # Bar control 
+  bindsym $mod+m bar mode toggle
+#end
+
+# Screenshots
+  bindsym Print exec --no-startup-id maim "/home/$USER/Screenshots/$(date).png"
+  bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Screenshots/$(date)"
+  bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Screenshots/$(date)"
+#end
+
+# Custom border control
+  # class                 border  backgr. text    indica. child_border
+  client.focused          #4c4f69 #4c4f69 #ffffff #ffffff #4c4f69
+  client.focused_inactive #4c4f69 #4c4f69 #ffffff #4c4f69 #4c4f69
+  client.unfocused        #000000 #000000 #888888 #292d2e #000022
+  client.urgent           #4c4f69 #179299 #ffffff #179299 #179299
+#end
+
+# Set window borders in pixels
+for_window [class="^.*"] border pixel 2 
 
 # Custom Bar + i3 status
 bar {
-  status_command i3status
-  position top
+  i3bar_command i3bar --transparency
+  tray_output none
   tray_padding 0
-
+  status_command i3status -c /home/$USER/.config/i3status/i3status.conf
+  position top 
+  
   colors {
-      background #222222
-      statusline #ffffff
+      background #4c4f6900
+      statusline #ffffff00
   }
 }
 
 # ----------------------- #
 #                         #
 # CUSTOM CONFIGS END HERE #
-#                         # 
+#                         #
 # ----------------------- #
 
+# Ignore the rest of the file if you don't need any other 
+# customization options
 
+
+set $mod Mod1
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -78,25 +119,15 @@ exec --no-startup-id nm-applet
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMute        exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
-# A more modern dmenu replacement is rofi:
-# bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-# There also is i3-dmenu-desktop which only displays applications shipping a
-# .desktop file. It is a wrapper around dmenu, so you need that installed.
-# bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
@@ -218,3 +249,5 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+# How did i nuke my audio drivers lol
