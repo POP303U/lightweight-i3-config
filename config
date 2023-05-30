@@ -65,7 +65,7 @@ font pango:Jetbrains Mono SemiBold 21
 
 # Custom border control
   # class                 border  backgr. text    indica. child_border
-  client.focused          #4c4f69 #4c4f69 #ffffff #ffffff #4c4f69
+  client.focused          #4c4f69 #4c4f69 #ffffff #ffffff #ffffff
   client.focused_inactive #4c4f69 #4c4f69 #ffffff #4c4f69 #4c4f69
   client.unfocused        #000000 #000000 #888888 #292d2e #000022
   client.urgent           #4c4f69 #179299 #ffffff #179299 #179299
@@ -249,5 +249,7 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+exec_always xrandr -s 2
 
 # How did i nuke my audio drivers lol
