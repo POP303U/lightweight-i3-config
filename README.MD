@@ -1,6 +1,6 @@
 # Please install all the necessary packages or this config will break!
 
-+ **Packages**: nitrogen picom maim xclip xdotool rofi 
++ **Packages**: nitrogen picom maim xclip xdotool rofi screenfetch i3
 + **Fonts**: Any Nerd Font
 + **Backgrounds**: [Source 1](https://github.com/D3Ext/aesthetic-wallpapers) [Source 2](https://github.com/linuxdotexe/nordic-wallpapers) [Source 3](https://github.com/dharmx/walls)
 
@@ -13,6 +13,7 @@ Make sure the files are in the correct directory!
 + ~/.bashrc
 
 **Troubleshooting**
+
 Be ready to read errors and google if you don't understand something
 
 **Previews**:
