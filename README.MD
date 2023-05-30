@@ -18,4 +18,10 @@
 4: 
 ![tis 30 maj 2023 21:51:34 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/b027086b-fc27-436f-9dec-30120365e56d)
 
-These themes have been implemented using the dotfiles i provide in this github repo have fun customizing your own!
+5:
+![tor 25 maj 2023 17:42:28 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/e49b0c58-f09e-4250-9d01-c1724bd32efa)
+
+
+The Dotfiles are free of use for anybody! 
+These themes have been implemented using the Dotfiles i provide in this github repo. 
+Have fun customizing your own!
