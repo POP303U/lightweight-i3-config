@@ -4,6 +4,14 @@
 + **Fonts**: Any Nerd Font
 + **Backgrounds**: [Source 1](https://github.com/D3Ext/aesthetic-wallpapers) [Source 2](https://github.com/linuxdotexe/nordic-wallpapers) [Source 3](https://github.com/dharmx/walls)
 
+**Directories**
+Make sure the files are in the correct directory!
+~/.config/i3/config
+~/.config/i3/picom.conf
+~/.config/i3status/i3status.conf
+~/.config/rofi/config.rasi
+~/.bashrc
+
 **Previews**:
 
 1:
@@ -20,6 +28,10 @@
 
 5:
 ![tor 25 maj 2023 17:42:28 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/e49b0c58-f09e-4250-9d01-c1724bd32efa)
+
+6:
+![tis 30 maj 2023 22:05:19 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/7d2e92a2-7385-4d3a-aec5-ac7e1876e7b0)
+
 
 
 The Dotfiles are free of use for anybody! 
