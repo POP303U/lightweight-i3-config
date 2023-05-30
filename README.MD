@@ -31,7 +31,7 @@ Be ready to read errors and google if you don't understand something
 ![tis 30 maj 2023 21:51:34 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/b027086b-fc27-436f-9dec-30120365e56d)
 
 5:
-![tor 25 maj 2023 17:42:28 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/e49b0c58-f09e-4250-9d01-c1724bd32efa)
+![tis 30 maj 2023 22:37:00 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/9aeae113-af3b-47e4-8fcc-557ba11fa21f)
 
 6:
 ![tis 30 maj 2023 22:05:19 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/7d2e92a2-7385-4d3a-aec5-ac7e1876e7b0)
