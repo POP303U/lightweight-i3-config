@@ -6,11 +6,14 @@
 
 **Directories**
 Make sure the files are in the correct directory!
-~/.config/i3/config
-~/.config/i3/picom.conf
-~/.config/i3status/i3status.conf
-~/.config/rofi/config.rasi
-~/.bashrc
++ ~/.config/i3/config
++ ~/.config/i3/picom.conf
++ ~/.config/i3status/i3status.conf
++ ~/.config/rofi/config.rasi
++ ~/.bashrc
+
+**Troubleshooting**
+Be ready to read errors and google if you don't understand something
 
 **Previews**:
 
