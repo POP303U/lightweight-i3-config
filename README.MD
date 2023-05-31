@@ -43,7 +43,10 @@ Watch Chris Titus Tech on Youtube on how to install this bash script.
 6:
 ![ons 31 maj 2023 11:44:02 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/be178db5-8b49-4f7c-9855-7ef18b0d8dcd)
 
+**Troubleshooting**
 
+Be ready to read errors and google if you don't understand something.
+There are many i3 config guides. I recommend you have at least some experience before trying my config.
 
 The Dotfiles are free of use for anybody! 
 These themes have been implemented using the Dotfiles i provide in this github repo. 
