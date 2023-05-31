@@ -1,6 +1,6 @@
 # Please install all the necessary packages or this config will break!
 
-+ **Packages**: nitrogen picom maim xclip xdotool rofi neofetch i3
++ **Packages**: terminator nitrogen picom maim xclip xdotool rofi neofetch i3
 + **Fonts**: JetbrainsMono Nerd Font
 + **Backgrounds**: [Github 1](https://github.com/D3Ext/aesthetic-wallpapers), [Github 2](https://github.com/linuxdotexe/nordic-wallpapers), [Github 3](https://github.com/dharmx/walls), [Wallpapercave](https://wallpapercave.com/catppuccin-wallpapers), [Catppuccin Discord](https://discord.com/servers/catppuccin-907385605422448742)
 
