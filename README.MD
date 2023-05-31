@@ -23,7 +23,7 @@ The fancy bash prompt is new and has to be installed manually:
 https://github.com/christitustech/mybash
 Watch Chris Titus Tech on Youtube on how to install this bash script.
 
-**Previews**:
+**Possible Configurations**:
 
 1:
 ![tis 30 maj 2023 10:54:56 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/0c98de3a-6dbf-4050-8fac-4d22c28d33dd)
