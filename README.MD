@@ -2,7 +2,7 @@
 
 + **Packages**: nitrogen picom maim xclip xdotool rofi screenfetch i3
 + **Fonts**: Any Nerd Font
-+ **Backgrounds**: [Source 1](https://github.com/D3Ext/aesthetic-wallpapers) [Source 2](https://github.com/linuxdotexe/nordic-wallpapers) [Source 3](https://github.com/dharmx/walls)
++ **Backgrounds**: [Source 1](https://github.com/D3Ext/aesthetic-wallpapers) [Source 2](https://github.com/linuxdotexe/nordic-wallpapers) [Source 3](https://github.com/dharmx/walls) [Source 4](https://wallpapercave.com/catppuccin-wallpapers)
 
 **Directories**
 Make sure the files are in the correct directory!
