@@ -1,7 +1,7 @@
 # Please install all the necessary packages or this config will break!
 
-+ **Packages**: nitrogen picom maim xclip xdotool rofi screenfetch i3
-+ **Fonts**: Any Nerd Font
++ **Packages**: nitrogen picom maim xclip xdotool rofi neofetch i3
++ **Fonts**: JetbrainsMono Nerd Font
 + **Backgrounds**: [Github 1](https://github.com/D3Ext/aesthetic-wallpapers), [Github 2](https://github.com/linuxdotexe/nordic-wallpapers), [Github 3](https://github.com/dharmx/walls), [Wallpapercave](https://wallpapercave.com/catppuccin-wallpapers), [Catppuccin Discord](https://discord.com/servers/catppuccin-907385605422448742)
 
 **Directories**
@@ -15,6 +15,13 @@ Make sure the files are in the correct directory!
 **Troubleshooting**
 
 Be ready to read errors and google if you don't understand something
+
+**Current Setup**
+![ons 31 maj 2023 14:48:26 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/ee8dfc85-c8ca-485c-9e9a-6116977469b6)
+
+The fancy bash prompt is new and has to be installed manually:
+https://github.com/christitustech/mybash
+Watch Chris Titus Tech on Youtube on how to install this bash script.
 
 **Previews**:
 
