@@ -14,10 +14,6 @@ Make sure the files are in the correct directory!
 + ~/.config/rofi/config.rasi
 + ~/.bashrc
 
-**Troubleshooting**
-
-Be ready to read errors and google if you don't understand something
-
 **Current Setup**
 ![ons 31 maj 2023 14:48:26 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/ee8dfc85-c8ca-485c-9e9a-6116977469b6)
 
@@ -50,6 +46,8 @@ Watch Chris Titus Tech on Youtube on how to install this bash script.
 Be ready to read errors and google if you don't understand something.
 There are many i3 config guides. I recommend you have at least some experience before trying my config.
 
-The Dotfiles are free of use for anybody! 
-These themes have been implemented using the Dotfiles i provide in this github repo. 
+**License**
+(CC-BY 4.0) These files are free of use for anybody, however credit must be given if my config / modified config is posted.
+
+These themes have been implemented using the Dotfiles I provide in this github repo. 
 Have fun customizing your own!
