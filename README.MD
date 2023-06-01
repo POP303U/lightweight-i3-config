@@ -16,7 +16,7 @@ Make sure the files are in the correct directory!
 + ~/.bashrc
 
 **Current Setup!**
-[tor  1 jun 2023 17:06:40 CEST](https://github.com/POP303U/lightweight-i3-config/assets/115036828/b3c0f614-2ea4-4189-a1b9-78369320c6f6)
+![tor 1 jun 2023 17:06:40 CEST](https://github.com/POP303U/lightweight-i3-config/assets/115036828/b3c0f614-2ea4-4189-a1b9-78369320c6f6)
 
 **Manual Adjustments**:
 If you want your config to look like my current setup there are a few steps to take.
