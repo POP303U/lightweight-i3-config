@@ -1,5 +1,7 @@
 # lightweight-i3-config
-This is an i3 config designed to be lightweight and efficient!
+This is an i3 config designed to be lightweight and efficient
+
+The color scheme is based on Catppuccin Mocha!
 
 **Necessary packages / Sources**
 + **Packages**: terminator nitrogen picom maim xclip xdotool rofi neofetch i3
