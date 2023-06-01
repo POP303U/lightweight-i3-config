@@ -15,12 +15,15 @@ Make sure the files are in the correct directory!
 + ~/.config/rofi/config.rasi
 + ~/.bashrc
 
-**Current Setup**
-![ons 31 maj 2023 14:48:26 CEST](https://github.com/POP303U/my-i3-config/assets/115036828/ee8dfc85-c8ca-485c-9e9a-6116977469b6)
+**Current Setup!**
+[tor  1 jun 2023 17:06:40 CEST](https://github.com/POP303U/lightweight-i3-config/assets/115036828/b3c0f614-2ea4-4189-a1b9-78369320c6f6)
 
-The fancy bash prompt is new and has to be installed manually:
-https://github.com/christitustech/mybash
-Watch Chris Titus Tech on Youtube on how to install this bash script.
+**Manual Adjustments**:
+If you want your config to look like my current setup there are a few steps to take.
++ 1: The fancy bash prompt is new and has to be installed manually: https://github.com/christitustech/mybash Watch Chris Titus Tech on Youtube on how to install this bash script.
++ 2: The colour scheme has to be adjusted in the terminal to match Catppuccin Mocha.
++ 3: Picom has to be disabled 
++ 4: Set the background to match the colors of i3status
 
 **Possible Configurations**:
 
