@@ -24,6 +24,7 @@ If you want your config to look like my current setup there are a few steps to t
 + 2: The colour scheme has to be adjusted in the terminal to match Catppuccin Mocha.
 + 3: Picom has to be disabled 
 + 4: Set the background to match the colors of i3status
++ 5: Any other needed settings have to be changed
 
 **Possible Configurations**:
 
