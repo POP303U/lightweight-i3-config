@@ -51,8 +51,8 @@ If you want your config to look like my current setup there are a few steps to t
 Be ready to read errors and google if you don't understand something.
 There are many i3 config guides. I recommend you have at least some experience before trying my config.
 
-**License**
-(CC-BY 4.0) These files are free of use for anybody, however credit must be given if my config / modified config is posted.
+**Use**
+These files are free of use for anybody, however credit must be given if my config / modified config is posted.
 
 These themes have been implemented using the Dotfiles I provide in this github repo. 
 Have fun customizing your own!
