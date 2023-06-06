@@ -49,7 +49,7 @@ If you want your config to look like my current setup there are a few steps to t
 **Troubleshooting**
 
 Be ready to read errors and google if you don't understand something.
-There are many i3 config guides. I recommend you have at least some experience before trying my config.
+Check out the i3 docs and the many config guides. I recommend you have at least some experience before trying my config.
 
 **Use**
 These files are free of use for anybody, however credit must be given if my config / modified config is posted.
