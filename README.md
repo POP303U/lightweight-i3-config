@@ -1,9 +1,8 @@
 # lightweight-i3-config
 
 ## Warning!
-This repo will be deprecated in favor of [nightfly-configs](https:://github.com/POP303U/nightfly-configs)!
-The code here will still be available but be archived, there are no breaking changes.
-## End of Warning 
+This repo will be deprecated in favor of [i3-pywal](https:://github.com/POP303U/i3-pywal) which is maintained.
+The code here will still be available but be archived, this config will be broken one day.
 
 This is an i3 config designed to be lightweight and efficient.
 The color scheme is based on Catppuccin Mocha!
