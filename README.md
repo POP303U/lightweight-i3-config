@@ -1,9 +1,11 @@
 # lightweight-i3-config
 
-## Warning!
+## Archived
 This repo will be deprecated in favor of [i3-pywal](https:://github.com/POP303U/i3-pywal) which is maintained.
 The code here will still be available but be archived, this config will be broken one day.
 
+
+## Config
 This is an i3 config designed to be lightweight and efficient.
 The color scheme is based on Catppuccin Mocha!
 
